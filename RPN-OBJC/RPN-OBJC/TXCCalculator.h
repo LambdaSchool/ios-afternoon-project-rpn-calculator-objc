@@ -23,9 +23,9 @@ typedef NS_ENUM(NSInteger, TXCCalculatorOperator)
 
 @property double *topValue;
 
-- (void)pushNumber:(double)value;
+- (void)pushNumber:(NSNumber *)value;
 
-- (void)applyOperator:(TXCCalculatorOperator)operator;
+- (void)applyOperator:(TXCCalculatorOperator)operation;
 
 - (void)clear;
 
