@@ -13,6 +13,7 @@
 		42D4F82D22E10B2B00843C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D4F82C22E10B2B00843C89 /* main.m */; };
 		42D4F83622E10CD100843C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D4F83522E10CD000843C89 /* Main.storyboard */; };
 		42D4F83922E10E1F00843C89 /* TXCStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D4F83822E10E1F00843C89 /* TXCStack.m */; };
+		42D4F83C22E11C1700843C89 /* TXCCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D4F83B22E11C1700843C89 /* TXCCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		42D4F83522E10CD000843C89 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		42D4F83722E10E1F00843C89 /* TXCStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXCStack.h; sourceTree = "<group>"; };
 		42D4F83822E10E1F00843C89 /* TXCStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXCStack.m; sourceTree = "<group>"; };
+		42D4F83A22E11C1700843C89 /* TXCCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXCCalculator.h; sourceTree = "<group>"; };
+		42D4F83B22E11C1700843C89 /* TXCCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXCCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				42D4F81E22E10B2A00843C89 /* AppDelegate.m */,
 				42D4F83722E10E1F00843C89 /* TXCStack.h */,
 				42D4F83822E10E1F00843C89 /* TXCStack.m */,
+				42D4F83A22E11C1700843C89 /* TXCCalculator.h */,
+				42D4F83B22E11C1700843C89 /* TXCCalculator.m */,
 				42D4F82622E10B2B00843C89 /* Assets.xcassets */,
 				42D4F83522E10CD000843C89 /* Main.storyboard */,
 				42D4F82822E10B2B00843C89 /* LaunchScreen.storyboard */,
@@ -145,6 +150,7 @@
 				42D4F83922E10E1F00843C89 /* TXCStack.m in Sources */,
 				42D4F82D22E10B2B00843C89 /* main.m in Sources */,
 				42D4F81F22E10B2A00843C89 /* AppDelegate.m in Sources */,
+				42D4F83C22E11C1700843C89 /* TXCCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
