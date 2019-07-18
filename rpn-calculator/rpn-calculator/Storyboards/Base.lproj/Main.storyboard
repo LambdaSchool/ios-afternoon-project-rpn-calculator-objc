@@ -34,74 +34,98 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rCU-ge-CN8">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100.5"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xu5-H4-9OY">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xu5-H4-9OY">
                                                 <rect key="frame" x="0.0" y="0.0" width="86" height="100.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="xu5-H4-9OY" secondAttribute="height" multiplier="6:7" id="jyn-JO-BXL"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="7"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xmC-C2-P3k"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8c-pq-P22">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8c-pq-P22">
                                                 <rect key="frame" x="96" y="0.0" width="86" height="100.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="H8c-pq-P22" secondAttribute="height" multiplier="6:7" id="aM1-JW-GDj"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="8"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5TB-w3-ILK"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyW-vF-W31">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyW-vF-W31">
                                                 <rect key="frame" x="192" y="0.0" width="86" height="100.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="xyW-vF-W31" secondAttribute="height" multiplier="6:7" id="nDZ-Ch-7SW"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
-                                                <state key="normal" title="8"/>
+                                                <state key="normal" title="9"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LS6-5c-LGL"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNy-cI-UmE">
+                                            <button opaque="NO" tag="-6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNy-cI-UmE">
                                                 <rect key="frame" x="288" y="0.0" width="86" height="100.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="qNy-cI-UmE" secondAttribute="height" multiplier="6:7" id="3od-L7-ifs"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="%"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zph-BE-D8p"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Tk2-t0-IUW">
                                         <rect key="frame" x="0.0" y="111.5" width="374" height="100"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07v-Wj-3iF">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07v-Wj-3iF">
                                                 <rect key="frame" x="0.0" y="0.0" width="86" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="07v-Wj-3iF" secondAttribute="height" multiplier="6:7" id="MzH-VI-WhW"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="4"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GNT-02-PUx"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUe-SJ-Zbq">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUe-SJ-Zbq">
                                                 <rect key="frame" x="96" y="0.0" width="86" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="YUe-SJ-Zbq" secondAttribute="height" multiplier="6:7" id="I0U-r3-Xwp"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="5"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qVw-KL-gYz"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lft-bI-lWh">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lft-bI-lWh">
                                                 <rect key="frame" x="192" y="0.0" width="86" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Lft-bI-lWh" secondAttribute="height" multiplier="6:7" id="l2B-YO-Qxa"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="6"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cys-Hn-Pvh"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFC-Ow-7BM">
+                                            <button opaque="NO" tag="-5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFC-Ow-7BM">
                                                 <rect key="frame" x="288" y="0.0" width="86" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="mFC-Ow-7BM" secondAttribute="height" multiplier="6:7" id="2QF-Aj-Lu8"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="x"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oak-fd-FeW"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -115,67 +139,91 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="1"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ugR-1m-JSw"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWe-Pb-t3m">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWe-Pb-t3m">
                                                 <rect key="frame" x="96" y="0.0" width="86" height="100.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="XWe-Pb-t3m" secondAttribute="height" multiplier="6:7" id="aPA-Jr-Bq1"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="2"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P84-ua-ddn"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aze-Sq-erl">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aze-Sq-erl">
                                                 <rect key="frame" x="192" y="0.0" width="86" height="100.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="aze-Sq-erl" secondAttribute="height" multiplier="6:7" id="ouy-Pn-AyR"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="3"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ufr-ar-sLb"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhS-Rf-pKx">
+                                            <button opaque="NO" tag="-4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhS-Rf-pKx">
                                                 <rect key="frame" x="288" y="0.0" width="86" height="100.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="RhS-Rf-pKx" secondAttribute="height" multiplier="6:7" id="mRC-tq-Q55"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t8G-2S-egb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="28Q-fa-aM8">
                                         <rect key="frame" x="0.0" y="334" width="374" height="100.5"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Tx-FR-aAN">
+                                            <button opaque="NO" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Tx-FR-aAN">
                                                 <rect key="frame" x="0.0" y="0.0" width="86" height="100.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="5Tx-FR-aAN" secondAttribute="height" multiplier="6:7" id="pbD-UZ-4Kk"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="."/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZUk-XD-0Hg"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am7-cw-9rE">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am7-cw-9rE">
                                                 <rect key="frame" x="96" y="0.0" width="86" height="100.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="am7-cw-9rE" secondAttribute="height" multiplier="6:7" id="R6k-u6-1sQ"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="0"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xPq-f8-yAY"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4p-sq-ZNf">
+                                            <button opaque="NO" alpha="0.94999999999999996" tag="-2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4p-sq-ZNf">
                                                 <rect key="frame" x="192" y="0.0" width="86" height="100.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="h4p-sq-ZNf" secondAttribute="height" multiplier="6:7" id="zVU-Gh-Hrl"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="⮐"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9NO-IC-ZA4"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PK4-bc-z4o">
+                                            <button opaque="NO" tag="-3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PK4-bc-z4o">
                                                 <rect key="frame" x="288" y="0.0" width="86" height="100.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="PK4-bc-z4o" secondAttribute="height" multiplier="6:7" id="gss-Qi-Q3j"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
                                                 <state key="normal" title="+"/>
+                                                <connections>
+                                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zsA-O2-H9T"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -193,6 +241,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="calcLabel" destination="0X3-sL-SuC" id="cs3-Nr-7Dh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

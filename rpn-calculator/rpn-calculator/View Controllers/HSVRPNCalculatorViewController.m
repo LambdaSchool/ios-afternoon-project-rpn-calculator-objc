@@ -10,6 +10,11 @@
 
 @interface HSVRPNCalculatorViewController ()
 
+@property (strong, nonatomic) IBOutlet UILabel *calcLabel;
+
+
+
+
 @end
 
 @implementation HSVRPNCalculatorViewController
@@ -17,6 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+- (IBAction)calcButtonPressed:(id)sender {
+	NSLog(@"tag: %li", [sender tag]);
+
 }
 
 /*
