@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HSVRPNCalculatorViewController.h
 //  rpn-calculator
 //
 //  Created by Hector Steven on 7/18/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface HSVRPNCalculatorViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
