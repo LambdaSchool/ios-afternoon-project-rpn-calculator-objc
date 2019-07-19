@@ -1,16 +1,22 @@
 //
-//  HSVRPNCalculatorViewController.h
+//  HSVDigitAccumulator.h
 //  rpn-calculator
 //
 //  Created by Hector Steven on 7/18/19.
 //  Copyright © 2019 Hector Steven. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HSVRPNCalculatorViewController : UIViewController
+@interface HSVDigitAccumulator : NSObject
+
+@property (nonatomic, readonly) double value;
+
+
+
+
 
 
 @end

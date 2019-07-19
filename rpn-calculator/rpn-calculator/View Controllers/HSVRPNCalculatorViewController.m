@@ -24,9 +24,31 @@
     // Do any additional setup after loading the view.
 }
 - (IBAction)calcButtonPressed:(id)sender {
-	NSLog(@"tag: %li", [sender tag]);
+	
+	NSNumber *tag = [[NSNumber alloc] initWithLong:[sender tag]];
+	NSLog(@"tag: %@", tag);
+	
+	NSString *str = [[NSString alloc] initWithFormat:@"%@", tag];
+	self.calcLabel.text = str;
+	
+}
+- (IBAction)deleteButton:(id)sender {
+	self.calcLabel.text = @"";
 
 }
+
+- (IBAction)calculateButton:(id)sender {
+	NSNumber *tag = [[NSNumber alloc] initWithLong:[sender tag]];
+	NSLog(@"tag: %@", tag);
+	
+	if ((int)tag == 1) {
+		NSLog(@"found %");
+	}else if ((int)tag == 5) {
+		
+	}
+}
+
+
 
 /*
 #pragma mark - Navigation
