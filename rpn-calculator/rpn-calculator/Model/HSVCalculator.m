@@ -30,9 +30,7 @@
 	return self;
 }
 
-
 - (void)pushNumber:(double)value {
-	
 	NSNumber *n = [[NSNumber alloc] initWithDouble:value];
 	[self.stack push: n];
 }

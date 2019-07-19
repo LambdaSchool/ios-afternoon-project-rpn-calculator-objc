@@ -13,11 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HSVCalculator : NSObject
 
-
-
 @property (nonatomic, copy) NSNumber* topValue;
-
-
 
 typedef NS_ENUM(NSInteger, HSVOperationType) {
 	HSVOperationTypeAddition,
