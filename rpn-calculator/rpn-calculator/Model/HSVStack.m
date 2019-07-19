@@ -12,27 +12,27 @@
 
 
 
-- (instancetype)initWithNumbers:(NSArray *)numbers {
+- (instancetype)initWithNumbers:(NSMutableArray *)numbers {
 	self = [super init];
 	if (self) {
-		_numbers = [[NSMutableArray alloc] init];
 		_numbers = [numbers copy];
 	}
 	return self;
 }
 
 
-- (void)push:(NSInteger *)number {
-//	[_numbers addObject:document];
-	
+- (void)push:(NSNumber *)number {
+	[self.numbers addObject:number];
 }
 
-- (void)pop:(NSInteger *)number {
-	
+- (double)pop {
+	NSNumber *number = [self.numbers lastObject];
+	[self.numbers removeLastObject];
+	return [number doubleValue];
 }
 
-- (void)peek:(NSInteger *)number {
-	
+- (double)peek {
+	return [[self.numbers lastObject] doubleValue];
 }
 
 

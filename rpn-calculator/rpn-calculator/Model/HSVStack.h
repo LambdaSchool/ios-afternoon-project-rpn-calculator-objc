@@ -12,15 +12,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HSVStack : NSObject
 
-@property (nonatomic, readonly) NSArray *numbers;
+@property (nonatomic, readonly) NSMutableArray *numbers;
 
-- (instancetype)initWithNumbers:(NSArray *)numbers;
+- (instancetype)initWithNumbers:(NSMutableArray *)numbers;
 
-- (void)push:(NSInteger *)number;
+- (void)push:(NSNumber *)number;
 
-- (void)pop:(NSInteger *)number;
+- (double)pop;
 
-- (void)peek:(NSInteger *)number;
+- (double)peek;
 
 
 
